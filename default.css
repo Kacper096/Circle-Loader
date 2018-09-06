@@ -62,7 +62,7 @@ section.loader span::after
     60%
     {
         transform:rotate(180deg);
-        box-shadow: inset 0px 0px 5px 5px rgba(200,140,20,0.4);
+        filter:blur(5px);
     }
     100%
     {
